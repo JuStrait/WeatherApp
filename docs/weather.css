@@ -1,36 +1,48 @@
 .searchArea {
-    background-color: #e6f2ff;
-    padding: 20px;
+  background-color: aqua;
+  padding: 20px;
 }
 
 .uvindex {
-    padding: 5px;
+  padding: 5px;
 }
 
 .daySize {
-    box-sizing: border-box;
-    width: 20%;
-    margin: 5px;
-    padding: 5px;
-    
+  box-sizing: border-box;
+  width: 20%;
+  margin: 5px;
+  padding: 5px;
 }
 
 .daySize:first-child {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
-.daySize:last-child{
-    margin-right: 0px;
+.daySize:last-child {
+  margin-right: 0px;
 }
 
 .fiveDay {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px;
 }
 
-#searchBtn{
-    padding: 6px 5px 0px 5px;
+#searchBtn {
+  align-content: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.top {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 3rem;
+  background-color: aqua;
+}
 
+body {
+  background-color: aqua;
 }
